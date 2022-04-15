@@ -1,0 +1,67 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    /* background: #a2d2ff; */
+    overflow-x: hidden;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: grey;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+    color: #03045e;
+    font-size: 1.5rem;
+}
+
+#guessHeading h1 {
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+.content{
+    margin-top: 75px;
+}
+
+.scrolled {
+    background: #e9d8a6;
+    transition: background 0.25s;
+}
+
+@media screen and (max-width:1200px) {
+    #guessHeading h1 {
+        font-weight: 100;
+        font-size: 2rem;
+    }
+
+    #intro img{
+        width: 100%;
+    }
+
+    #winner h2{
+        margin-top: 15px;
+        font-size: 2rem;
+    }
+
+    #playoffs h3{
+        margin-top: 15px;
+        font-size: 2rem;
+    }
+    
+    #mainNavbar .navbar-brand {
+    color: white;
+    font-size: 1.75rem;
+    }
+
+    #mainNavbar .nav-link {
+    color: grey;
+}
+}
