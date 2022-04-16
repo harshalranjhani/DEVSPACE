@@ -1,0 +1,29 @@
+#orange-cap h1{
+    color: orange;
+}
+
+#purple-cap h1{
+    color: purple;
+}
+
+.player-name, .team-name{
+    animation-name: glow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes glow {
+    from{color: #212529;}
+    to{color: #d4a373;}
+}
+
+@media screen and (max-width:1200px) {
+    #purple-cap h1{
+        margin-top: 69px;
+        font-size: 2rem;
+    }
+
+    #playoff-qualifiers h1{
+        margin-top: 69px;
+    }
+}
